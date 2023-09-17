@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import About from './components/About'
+import Connect from './components/Connect';
 import './App.css';
 
 function App() {
@@ -7,15 +8,7 @@ function App() {
     <body className="mainApp">
       <Header />
       <About />
-      <div className='contactLinks'>
-        <ul>
-          <li>Discord</li>
-          <li>Instagram</li>
-          <li>Newsletter</li>
-          <li>Engage</li>
-          <li>Email</li>
-        </ul>
-      </div>
+      <Connect />
     </body>
   );
 }

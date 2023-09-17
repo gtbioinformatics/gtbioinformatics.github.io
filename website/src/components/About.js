@@ -11,7 +11,7 @@ function About() {
                 <p>Ut optio veritatis ut inventore internos At distinctio quis vel facere enim ut quasi ipsa in veritatis dolorem. Est incidunt quia aut incidunt perferendis quo illo iure ea fugit quia. </p>  
             </div>
         </div>
-        <div className='images'>
+        <div className='animation'>
             <Animation />
         </div>
       </div>

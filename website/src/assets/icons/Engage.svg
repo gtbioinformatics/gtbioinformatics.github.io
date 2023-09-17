@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="21px" height="21px" viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve">
+  <g id="icon">
+    <circle cx="10.5" cy="10.5" r="10" fill="none" stroke="#434A54" stroke-width="1" stroke-linecap="round" stroke-miterlimit="1" stroke-linejoin="round"/>
+    <circle cx="6.1" cy="10.5" r="1.7" fill="none" stroke="#434A54" stroke-width="1" stroke-linecap="round" stroke-miterlimit="1" stroke-linejoin="round"/>
+    <circle cx="13.9" cy="14.5" r="1.7" fill="none" stroke="#434A54" stroke-width="1" stroke-linecap="round" stroke-miterlimit="1" stroke-linejoin="round"/>
+    <circle cx="13.9" cy="6.6" r="1.7" fill="none" stroke="#434A54" stroke-width="1" stroke-linecap="round" stroke-miterlimit="1" stroke-linejoin="round"/>
+    <line x1="7.6" y1="9.75" x2="12.4" y2="7.35" fill="none" stroke="#434A54" stroke-width="1" stroke-miterlimit="1" stroke-linejoin="round"/>
+    <line x1="7.6" y1="11.35" x2="12.4" y2="13.75" fill="none" stroke="#434A54" stroke-width="1" stroke-miterlimit="1" stroke-linejoin="round"/>
+  </g>
+</svg>

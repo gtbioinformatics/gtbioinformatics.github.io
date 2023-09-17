@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../assets/fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../assets/fonts/AvenirLTStd-Book.otf') format('truetype');
+}
+
+.connect {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.images {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    display: flex;
+}
+
+.contactImage {
+    background-color: #cccaca;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.connectBody {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.connectIconsList {
+    text-decoration: none;
+    list-style: none;
+}
+
+.icon {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icon img {
+    width: 30px;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #3f3f3f;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 18px;
+}
+
+#snackbar .show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
