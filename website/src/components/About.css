@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../assets/fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../assets/fonts/AvenirLTStd-Book.otf') format('truetype');
+}
+
+.about {
+    display: flex;
+    padding: 7.5%;
+}
+
+.content {
+    width: 70%;
+}
+
+.images {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    font-family: 'Bebas Neue';
+    font-size: 36px;
+    padding-bottom: 20px;
+    color: #033258;
+}
+
+.bodyText {
+    font-family: 'Avenir';
+    font-size: 22px;
+    color: #171726;
+}
+
+.bodyText p {
+    padding-bottom: 20px;
+}

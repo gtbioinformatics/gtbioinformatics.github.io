@@ -1,12 +1,31 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../assets/fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../assets/fonts/AvenirLTStd-Book.otf') format('truetype');
+}
+
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #CFE4F1;
+    background-color: #e1eaf0;
+    font-family: 'Bebas Neue';
+    color: #033258;
+    font-size: 24px;
 }
 
 .logo {
     display: flex;
     max-width: 100px;
     padding-top: 20px;
+    padding-bottom: -10px;
+}
+
+.clubText {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }

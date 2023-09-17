@@ -5,7 +5,7 @@ function Header() {
   return (
       <div className='header'>
         <img src={logo} className="logo" />
-        <p>Bioinformatics @ GT</p>
+        <div className="clubText">Bioinformatics @ GT</div>
       </div>
   );
 }
