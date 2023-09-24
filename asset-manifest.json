@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.9bb430fd.css",
-    "main.js": "/website/static/js/main.4b925781.js",
-    "static/js/651.d10bca47.chunk.js": "/website/static/js/651.d10bca47.chunk.js",
-    "static/media/about02.png": "/website/static/media/about02.4037e8408ed42260fde8.png",
-    "static/media/about01.png": "/website/static/media/about01.edc8fa5b848b32628e56.png",
-    "static/media/about03.png": "/website/static/media/about03.c4d41e230ff860e22325.png",
-    "static/media/BebasNeue-Regular.ttf": "/website/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
-    "static/media/AvenirLTStd-Book.otf": "/website/static/media/AvenirLTStd-Book.813557df4c7a90b1a474.otf",
-    "static/media/logo.svg": "/website/static/media/logo.fd2be385f20fbac010f360a1352e4be7.svg",
-    "static/media/Email.svg": "/website/static/media/Email.337dc22304ce034885444c9441c48228.svg",
-    "static/media/Github.svg": "/website/static/media/Github.5c52c2364a667fe7744214ccc938bd6e.svg",
-    "static/media/Discord.svg": "/website/static/media/Discord.4b4f54c6ee9332aa39d9c17baec05988.svg",
-    "static/media/Resume.svg": "/website/static/media/Resume.64d738078ea166d4342a88d6898b346c.svg",
-    "static/media/Engage.svg": "/website/static/media/Engage.44c5ec9e9dca013f987b35bd675c6f4e.svg",
-    "static/media/LinkedIn.svg": "/website/static/media/LinkedIn.1226b12bfe0b7a736bc9539eedf5e1ef.svg",
-    "static/media/Instagram.svg": "/website/static/media/Instagram.8ab05bfd4b3c52c0517d6717b4c9997b.svg",
-    "static/media/MailingList.svg": "/website/static/media/MailingList.da31440d9dce0db8642e30a8b425c88e.svg",
-    "index.html": "/website/index.html",
-    "main.9bb430fd.css.map": "/website/static/css/main.9bb430fd.css.map",
-    "main.4b925781.js.map": "/website/static/js/main.4b925781.js.map",
-    "651.d10bca47.chunk.js.map": "/website/static/js/651.d10bca47.chunk.js.map"
+    "main.css": "/static/css/main.19e09d8a.css",
+    "main.js": "/static/js/main.d72dfc96.js",
+    "static/js/651.d10bca47.chunk.js": "/static/js/651.d10bca47.chunk.js",
+    "static/media/about02.png": "/static/media/about02.4037e8408ed42260fde8.png",
+    "static/media/about01.png": "/static/media/about01.edc8fa5b848b32628e56.png",
+    "static/media/about03.png": "/static/media/about03.c4d41e230ff860e22325.png",
+    "static/media/BebasNeue-Regular.ttf": "/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
+    "static/media/AvenirLTStd-Book.otf": "/static/media/AvenirLTStd-Book.813557df4c7a90b1a474.otf",
+    "static/media/logo.svg": "/static/media/logo.fd2be385f20fbac010f360a1352e4be7.svg",
+    "static/media/Email.svg": "/static/media/Email.337dc22304ce034885444c9441c48228.svg",
+    "static/media/Github.svg": "/static/media/Github.5c52c2364a667fe7744214ccc938bd6e.svg",
+    "static/media/Discord.svg": "/static/media/Discord.4b4f54c6ee9332aa39d9c17baec05988.svg",
+    "static/media/Resume.svg": "/static/media/Resume.64d738078ea166d4342a88d6898b346c.svg",
+    "static/media/Engage.svg": "/static/media/Engage.44c5ec9e9dca013f987b35bd675c6f4e.svg",
+    "static/media/LinkedIn.svg": "/static/media/LinkedIn.1226b12bfe0b7a736bc9539eedf5e1ef.svg",
+    "static/media/Instagram.svg": "/static/media/Instagram.8ab05bfd4b3c52c0517d6717b4c9997b.svg",
+    "static/media/MailingList.svg": "/static/media/MailingList.da31440d9dce0db8642e30a8b425c88e.svg",
+    "index.html": "/index.html",
+    "main.19e09d8a.css.map": "/static/css/main.19e09d8a.css.map",
+    "main.d72dfc96.js.map": "/static/js/main.d72dfc96.js.map",
+    "651.d10bca47.chunk.js.map": "/static/js/651.d10bca47.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bb430fd.css",
-    "static/js/main.4b925781.js"
+    "static/css/main.19e09d8a.css",
+    "static/js/main.d72dfc96.js"
   ]
 }
