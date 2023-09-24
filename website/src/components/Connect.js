@@ -23,7 +23,7 @@ function Connect() {
         <div className='connect'>
             <div className='images'>
                 <img src={image01} className='contactImage'/>
-                <img src={image02} className='contactImage'/>
+                <img src={image01} className='contactImage'/>
                 <img src={image01} className='contactImage'/>
             </div>
             <div className='connectBody'>

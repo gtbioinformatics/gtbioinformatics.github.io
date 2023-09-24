@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../assets/fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../assets/fonts/AvenirLTStd-Book.otf') format('truetype');
+}
+
+.members {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    border: 1px solid red;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    width: 100%;
+}
