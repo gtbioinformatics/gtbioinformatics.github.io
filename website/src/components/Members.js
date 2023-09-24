@@ -103,6 +103,16 @@ function Members() {
             linkedin = "https://www.linkedin.com/in/harshil-shah315"
           />
           <MemberCard
+            image = "1i4RgE1fITaMdOC4Zd6Pik4C8BsL8AcKB"
+            name = "Alan Tian"
+            major = "Computer Science"
+            year = "1st year"
+            email = "atian31@gatech.edu"
+            resume = "https://drive.google.com/open?id=1AqJlIRMqYOd2Q9xzCHg0ahojgOqpvmeS"
+            website = "https://alantian2018.github.io/"
+            github = "https://github.com/alantian2018"
+          />
+          <MemberCard
             image = "1lFuTTFOItfMXhzDNQD5ZQbDkpvz662cg"
             name = "Krissh Bhargava"
             major = "Computer Science"
