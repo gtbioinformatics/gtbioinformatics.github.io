@@ -8,13 +8,17 @@
     src: url('../assets/fonts/AvenirLTStd-Book.otf') format('truetype');
 }
 
-.members {
-    display: flex;
+.ourMembers {
     text-align: center;
-    justify-content: space-around;
-    border: 1px solid red;
-    flex-wrap: wrap;
-    flex-direction: row;
+    font-family: 'Bebas Neue';
+    font-size: 36px;
+    padding-bottom: 20px;
+    color: #033258;
+}
+
+.members {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(315px, 1fr));
     padding-left: 7.5%;
     padding-right: 7.5%;
     width: 100%;

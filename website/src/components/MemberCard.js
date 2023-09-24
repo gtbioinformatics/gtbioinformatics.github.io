@@ -1,7 +1,12 @@
 import './MemberCard.css'
-import image01 from '../assets/images/about01.png'
 
-function About() {
+import Email from '../assets/icons/Email.svg'
+import Resume from '../assets/icons/Resume.svg'
+import LinkedIn from '../assets/icons/LinkedIn.svg'
+import Website from '../assets/icons/Engage.svg'
+import Github from '../assets/icons/Github.svg'
+
+function About(props) {
 
     // const fs = require('fs'); // Node.js file system module
     // const csv = require('csv-parser'); // CSV parsing library
@@ -55,16 +60,31 @@ function About() {
     //     }
     // });
 
+    function handleImage(id) {
+        return "https://drive.google.com/uc?export=view&id=" + id;
+    }
+
+    function handleEmail(email) {
+        return "mailto:" + email;
+    }
+
     return (
         <div className='profile'>
-            <div >
-                <img src={image01} className='photo'/>
+            <div className='imageContainer'>
+                <img src={handleImage(props.image)} className='photo'/>
             </div>
-            <div className='title'></div>
-            <div className='name'></div>
-            <div className='year'></div>
-            <div className='major'></div>
-            <div className='socials'></div>
+            <div className='name'>{props.name}</div>
+            <div className='major'><strong>Major: </strong>{props.major}</div>
+            <div className='year'><strong>Year: </strong>{props.year}</div>
+            <div className='socials'>
+                <ul className='socialLinks'>
+                    <li className='links'><a href={handleEmail(props.email)}><img src={Email} className='socialIcon'/></a></li>
+                    {props.resume ? <li className='links'><a href={props.resume} target='_blank'><img src={Resume} className='socialIcon'/></a></li> : <></>}
+                    {props.linkedin ? <li className='links'><a href={props.linkedin} target='_blank'><img src={LinkedIn} className='socialIcon'/></a></li> : <></>}
+                    {props.website ? <li className='links'><a href={props.website} target='_blank'><img src={Website} className='socialIcon'/></a></li> : <></>}
+                    {props.github ? <li className='links'><a href={props.github}  target='_blank'><img src={Github} className='socialIcon'/></a></li> : <></>}
+                </ul>
+            </div>
         </div>
     );
 }

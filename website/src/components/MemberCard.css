@@ -10,21 +10,74 @@
 
 .profile {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     padding: 20px;
-    background-color: #efefef;
+    background-color: #f8f8f8;
     border-radius: 10px;
-    min-width: 250px;
     height: fit-content;
     flex: 1 0 0;
     max-width: calc(33.33%-20px);
     margin: 10px;
-    width: 250px;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.imageContainer::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
 }
 
 .photo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    width: 80%;
-    position: relative;
+    transform: translate(-50%, 0);
+    object-position: top center;
+}
+
+.name {
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #033258;
+    text-align: center;
+}
+
+.year {
+    font-family: 'Avenir';
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.major {
+    font-family: 'Avenir';
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.socials {
+    padding-top: 15px;
+}
+
+.socialLinks {
+    text-decoration: none;
+    list-style: none;
+}
+
+.links {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.socialIcon {
+    width: 25px;
 }
