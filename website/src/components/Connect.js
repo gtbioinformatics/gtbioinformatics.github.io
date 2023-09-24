@@ -2,6 +2,7 @@ import './Connect.css'
 
 import image01 from '../assets/images/about01.png'
 import image02 from '../assets/images/about02.png'
+import image03 from '../assets/images/about03.png'
 
 import Discord from '../assets/icons/Discord.svg'
 import Instagram from '../assets/icons/Instagram.svg'
@@ -23,8 +24,8 @@ function Connect() {
         <div className='connect'>
             <div className='images'>
                 <img src={image01} className='contactImage'/>
-                <img src={image01} className='contactImage'/>
-                <img src={image01} className='contactImage'/>
+                <img src={image02} className='contactImage'/>
+                <img src={image03} className='contactImage'/>
             </div>
             <div className='connectBody'>
                 <div className='heading'>Connect with Us</div>

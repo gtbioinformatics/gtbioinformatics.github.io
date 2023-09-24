@@ -16,10 +16,10 @@ function Animation() {
             <div className="strain"></div>
             <div className="strain"></div>
             <div className="strain"></div>
+            <div className="strain"></div>
+            <div className="strain"></div>
+            <div className="strain"></div>
             {/* <div className="strain"></div>
-            <div className="strain"></div>
-            <div className="strain"></div>
-            <div className="strain"></div>
             <div className="strain"></div>
             <div className="strain"></div>
             <div className="strain"></div> */}

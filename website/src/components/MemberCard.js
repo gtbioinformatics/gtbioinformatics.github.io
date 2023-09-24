@@ -1,4 +1,5 @@
 import './MemberCard.css'
+import styled from "styled-components"
 
 import Email from '../assets/icons/Email.svg'
 import Resume from '../assets/icons/Resume.svg'
@@ -68,10 +69,20 @@ function About(props) {
         return "mailto:" + email;
     }
 
+    const Profile = styled.img`
+        background-color: ${props => props.color};
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: translate(-50%, 0);
+        object-position: ${props.position ? props.position : 'top center'};
+    `
+
     return (
         <div className='profile'>
             <div className='imageContainer'>
-                <img src={handleImage(props.image)} className='photo'/>
+                <Profile src={handleImage(props.image)}/>
             </div>
             <div className='name'>{props.name}</div>
             <div className='major'><strong>Major: </strong>{props.major}</div>
