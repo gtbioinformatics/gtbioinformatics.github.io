@@ -70,14 +70,13 @@ function About(props) {
     }
 
     const Profile = styled.img`
-        background-color: ${props => props.color};
         position: absolute;
         width: 100%;
         height: 100%;
         object-fit: cover;
         transform: translate(-50%, 0);
         object-position: ${props.position ? props.position : 'top center'};
-    `
+    `;
 
     return (
         <div className='profile'>
@@ -91,7 +90,7 @@ function About(props) {
                 <ul className='socialLinks'>
                     <li className='links'><a href={handleEmail(props.email)}><img src={Email} className='socialIcon'/></a></li>
                     {props.resume ? <li className='links'><a href={props.resume} target='_blank' rel="noreferrer"><img src={Resume} className='socialIcon'/></a></li> : <></>}
-                    {props.linkedin ? <li className='links'><a href={props.linkedin} target='_blank' rel="noreferrer"><img src={LinkedIn} className='socialIcon'/></a></li> : <></>}
+                    {props.linkedin ? <li className='links'><a href={props.linkedin} target='_blank'><img src={LinkedIn} className='socialIcon'/></a></li> : <></>}
                     {props.website ? <li className='links'><a href={props.website} target='_blank' rel="noreferrer"><img src={Website} className='socialIcon'/></a></li> : <></>}
                     {props.github ? <li className='links'><a href={props.github}  target='_blank' rel="noreferrer"><img src={Github} className='socialIcon'/></a></li> : <></>}
                 </ul>

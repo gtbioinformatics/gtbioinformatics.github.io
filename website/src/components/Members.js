@@ -170,6 +170,16 @@ function Members() {
             website = "https://alessandroferrari.live"
             github = "https://github.com/Ferryistaken"
           />
+          <MemberCard
+            image = "1dyObyldoCceHO8dhhQl_i-ZliQhrOurN"
+            name = "Taylor Baugher"
+            major = "Biomedical Engineering"
+            year = "3rd year"
+            email = "taybaugher2003@gmail.com"
+            resume = "https://drive.google.com/open?id=1S6IigP8rJVFmBOWKAW426mwn9LnrPby0"
+            linkedin = "www.linkedin.com/in/taylor-baugher"
+            position = "right"
+          />
           {/* <MemberCard
             image = ""
             name = ""
@@ -180,10 +190,11 @@ function Members() {
             linkedin = ""
             website = ""
             github = ""
+            position = ""
           /> */}
       </div>
       <div class="buttonClass">
-        <a href="https://forms.gle/SLE7vUzfkgah5eyZA" target='_blank'>
+        <a href="https://forms.gle/SLE7vUzfkgah5eyZA" target='_blank' rel="noreferrer">
           <button class="button">
               Click here to upload your profile
           </button>
