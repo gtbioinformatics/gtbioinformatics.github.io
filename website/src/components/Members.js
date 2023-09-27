@@ -17,6 +17,26 @@ function Members() {
             website = "rohitvemuri.github.io"
             github = "https://github.com/RohitVemuri"
           /> */}
+
+          <MemberCard
+            image = "1dyObyldoCceHO8dhhQl_i-ZliQhrOurN"
+            name = "Taylor Baugher"
+            major = "Biomedical Engineering"
+            year = "3rd year"
+            email = "taybaugher2003@gmail.com"
+            resume = "https://drive.google.com/open?id=1S6IigP8rJVFmBOWKAW426mwn9LnrPby0"
+            linkedin = "www.linkedin.com/in/taylor-baugher"
+            position = "right"
+          />
+          <MemberCard
+            image = "13H6J-WnQ3u_hYWKYvxVkmDWP2XcjsRxq"
+            name = "Nicole Woo"
+            major = "Computer Science"
+            year = "4th year"
+            email = "nwoo3@gatech.edu"
+            resume = "https://drive.google.com/open?id=11HB9yLrV7bChDZXWkH8IBcQfkIUXTmam"
+            linkedin = "https://www.linkedin.com/in/nicole-woo-41b023208/"
+          />
           <MemberCard
             image = "1iACLdMGkHtunfFQqoLMIX6pCae2rGjFe"
             name = "Harrison Vassar"
@@ -54,6 +74,14 @@ function Members() {
             linkedin = "www.linkedin.com/in/sritej-ponna-276b07281"
           />
           <MemberCard
+            image = "1-L4keksTuIgHNaALtguxACIIZLNtAvhO"
+            name = "Arina Kucinskaja"
+            major = "Biomedical Engineering"
+            year = "2nd year"
+            email = "akucinskaja3@gatech.edu"
+            position = "center"
+          />
+          <MemberCard
             image = "1I0cHRJmPoEzhkr2TEjOCh2mWCdTdq0Pd"
             name = "Aravinth Venkatesh Natarajan"
             major = "Computer Science"
@@ -72,6 +100,17 @@ function Members() {
             resume = "https://drive.google.com/open?id=1fCA3Mr_ap-D1XcIy5CFPBQRqZjbHbJ7x"
             linkedin = "https://www.linkedin.com/in/thomaswang07/"
             github = "https://github.com/peacebypieces"
+          />
+           <MemberCard
+            image = "16iSDBOGiTjIFWWUSCC6F1kE5Rshu-oI3"
+            name = "Samyukta Iyer"
+            major = "Biomedical Engineering"
+            year = "2nd year"
+            email = "siyer300@gatech.edu"
+            resume = "https://drive.google.com/open?id=1_st7HV8x-vmpMPUmlN9d05_v3TgnQ8Dd"
+            linkedin = "https://www.linkedin.com/in/samyuktasainath/"
+            website = "https://samyuktasainath.wixsite.com/portfolio/projects"
+            github = "https://github.com/samyukta-iyer"
           />
           <MemberCard
             image = "1X6pv7ovSqN7xXfJpUeqWEibYFRSO1AYq"
@@ -103,6 +142,15 @@ function Members() {
             linkedin = "https://www.linkedin.com/in/harshil-shah315"
           />
           <MemberCard
+            image = "1I6cm_kmWiKGisTUEu-10N73PC1-VhJwH"
+            name = "Morgan Duvall"
+            major = "Computer Science"
+            year = "3rd year"
+            email = "mduvall3@gatech.edu"
+            resume = "https://drive.google.com/open?id=1rI5p6OtQ6KVXUGx8ZYL0_4ieclI69UyW"
+            linkedin = "https://www.linkedin.com/in/morgan-duvall/"
+          />
+          <MemberCard
             image = "1i4RgE1fITaMdOC4Zd6Pik4C8BsL8AcKB"
             name = "Alan Tian"
             major = "Computer Science"
@@ -122,26 +170,6 @@ function Members() {
             linkedin = "https://www.linkedin.com/in/krissh-bhargava-82751b204/"
           />
           <MemberCard
-            image = "13H6J-WnQ3u_hYWKYvxVkmDWP2XcjsRxq"
-            name = "Nicole Woo"
-            major = "Computer Science"
-            year = "4th year"
-            email = "nwoo3@gatech.edu"
-            resume = "https://drive.google.com/open?id=11HB9yLrV7bChDZXWkH8IBcQfkIUXTmam"
-            linkedin = "https://www.linkedin.com/in/nicole-woo-41b023208/"
-          />
-          <MemberCard
-            image = "16iSDBOGiTjIFWWUSCC6F1kE5Rshu-oI3"
-            name = "Samyukta Iyer"
-            major = "Biomedical Engineering"
-            year = "2nd year"
-            email = "siyer300@gatech.edu"
-            resume = "https://drive.google.com/open?id=1_st7HV8x-vmpMPUmlN9d05_v3TgnQ8Dd"
-            linkedin = "https://www.linkedin.com/in/samyuktasainath/"
-            website = "https://samyuktasainath.wixsite.com/portfolio/projects"
-            github = "https://github.com/samyukta-iyer"
-          />
-          <MemberCard
             image = "1P6YF1j_XUdGer-OsbNY91iOX_Lk2Mw1K"
             name = "Mia Denning"
             major = "Biology"
@@ -149,15 +177,6 @@ function Members() {
             email = "mdenning6@gatech.edu"
             resume = "https://drive.google.com/open?id=1RGqVB5WnIIIEUc7WoxB5OYmX8uclVXqM"
             linkedin = "https://www.linkedin.com/in/miadenning1234/"
-          />
-          <MemberCard
-            image = "1I6cm_kmWiKGisTUEu-10N73PC1-VhJwH"
-            name = "Morgan Duvall"
-            major = "Computer Science"
-            year = "3rd year"
-            email = "mduvall3@gatech.edu"
-            resume = "https://drive.google.com/open?id=1rI5p6OtQ6KVXUGx8ZYL0_4ieclI69UyW"
-            linkedin = "https://www.linkedin.com/in/morgan-duvall/"
           />
           <MemberCard
             image = "1Md54EUVUess55ugEFqSwyf7nE880aQfI"
@@ -171,14 +190,14 @@ function Members() {
             github = "https://github.com/Ferryistaken"
           />
           <MemberCard
-            image = "1dyObyldoCceHO8dhhQl_i-ZliQhrOurN"
-            name = "Taylor Baugher"
+            image = "1VIOQhUTeVyPHWxwhjP1W-vwX8fPqxVYn"
+            name = "Om Malavde"
             major = "Biomedical Engineering"
-            year = "3rd year"
-            email = "taybaugher2003@gmail.com"
-            resume = "https://drive.google.com/open?id=1S6IigP8rJVFmBOWKAW426mwn9LnrPby0"
-            linkedin = "www.linkedin.com/in/taylor-baugher"
-            position = "right"
+            year = "1st year"
+            email = "omalavde3@gatech.edu"
+            resume = "https://drive.google.com/open?id=1VV75KAtH8xfbwoGMGj1i8CKe4GxrjiU_"
+            linkedin = "https://www.linkedin.com/in/om-malavde-8612b4292"
+            github = "https://github.com/om-malavde"
           />
           {/* <MemberCard
             image = ""
