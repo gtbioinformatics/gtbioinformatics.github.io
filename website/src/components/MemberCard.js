@@ -69,6 +69,10 @@ function About(props) {
         return "mailto:" + email;
     }
 
+    function handleLinkedin(linkedin) {
+        return linkedin.startsWith("http") ? linkedin : "//"+linkedin
+    }
+
     const Profile = styled.img`
         position: absolute;
         width: 100%;
@@ -90,7 +94,7 @@ function About(props) {
                 <ul className='socialLinks'>
                     <li className='links'><a href={handleEmail(props.email)}><img src={Email} className='socialIcon'/></a></li>
                     {props.resume ? <li className='links'><a href={props.resume} target='_blank' rel="noreferrer"><img src={Resume} className='socialIcon'/></a></li> : <></>}
-                    {props.linkedin ? <li className='links'><a href={props.linkedin} target='_blank'><img src={LinkedIn} className='socialIcon'/></a></li> : <></>}
+                    {props.linkedin ? <li className='links'><a href={handleLinkedin(props.linkedin)} target='_blank'><img src={LinkedIn} className='socialIcon'/></a></li> : <></>}
                     {props.website ? <li className='links'><a href={props.website} target='_blank' rel="noreferrer"><img src={Website} className='socialIcon'/></a></li> : <></>}
                     {props.github ? <li className='links'><a href={props.github}  target='_blank' rel="noreferrer"><img src={Github} className='socialIcon'/></a></li> : <></>}
                 </ul>
