@@ -199,6 +199,31 @@ function Members() {
             linkedin = "https://www.linkedin.com/in/om-malavde-8612b4292"
             github = "https://github.com/om-malavde"
           />
+          <MemberCard
+            image = "1vp8SMK6h34Oflr6s8BnCr2_2_ktFJDnY"
+            name = "Nia Meadows"
+            major = "Master's student"
+            year = "Bioinformatics"
+            email = "nmeadows6@gatech.edu"
+            linkedin = "https://www.linkedin.com/in/nia-meadows-a3929214a/"
+          />
+          <MemberCard
+            image = "1cUNKXBuJHac1otYKydK-bjvZrH4g1Bea"
+            name = "Kathleen Hanna De Key"
+            major = "Biomedical Engineering"
+            year = "1st year"
+            email = "kkey35@gatech.edu"
+            resume = "https://drive.google.com/open?id=1856mSAWF-TU8b9EjWZvpLT3GOJ8tZkl1"
+            github = "https://github.gatech.edu/kkey35"
+          />
+          {/* <MemberCard
+            image = "1XlZcsu67Rl01tRkWCOpR-_MhDD9R2_rv"
+            name = "Layla Libanan"
+            major = "Biomedical Engineering"
+            year = "1st year"
+            email = "llibanan3@gatech.edu"
+            resume = "https://drive.google.com/open?id=19EHwhvv3q9M8DmXkTDauRv2jgChGUJaC"
+          /> */}
           {/* <MemberCard
             image = ""
             name = ""
