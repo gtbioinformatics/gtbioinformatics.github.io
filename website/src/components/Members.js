@@ -216,14 +216,87 @@ function Members() {
             resume = "https://drive.google.com/open?id=1856mSAWF-TU8b9EjWZvpLT3GOJ8tZkl1"
             github = "https://github.gatech.edu/kkey35"
           />
-          {/* <MemberCard
-            image = "1XlZcsu67Rl01tRkWCOpR-_MhDD9R2_rv"
+          <MemberCard
+            image = "1zM694Zvkxz7T1i7jjM56YNLbVuY3xw-D"
             name = "Layla Libanan"
             major = "Biomedical Engineering"
             year = "1st year"
             email = "llibanan3@gatech.edu"
             resume = "https://drive.google.com/open?id=19EHwhvv3q9M8DmXkTDauRv2jgChGUJaC"
-          /> */}
+          />
+          <MemberCard
+            image = "1A3E_tsTxFC8POgXhgWW5P4lgLKZ0-_WT"
+            name = "Sonali Kaluri"
+            major = "Biology"
+            year = "2nd year"
+            email = "skaluri3@gatech.edu"
+            resume = "https://drive.google.com/open?id=1704U3eVej9FYJJnUfjqLpw0XPwvqrfBq"
+          />
+          <MemberCard
+            image = "1oy9u-0HO5ks0BmZQAg92sgQu7FbTR1jY"
+            name = "Honoka Miura"
+            major = "Biochemistry"
+            year = "4th year"
+            email = "hmiura3@gatech.edu"
+            resume = "https://drive.google.com/open?id=1RB6NtD_DM2zLCt3-a9sLT9djS0U5aP26"
+            linkedin = "www.linkedin.com/in/honoka-miura-279b131b5"
+          />
+          <MemberCard
+            image = "17p7yI-pTF6XVJDCY03mjw3v4P-OZt-ec"
+            name = "Venkatesan Sundar"
+            major = "Computer Science"
+            year = "2nd year"
+            email = "vsundar@gatech.edu"
+            resume = "https://drive.google.com/open?id=1PqL5_oXeJ_JlFBEmrSxcivS7COnnsdlu"
+            linkedin = "https://www.linkedin.com/in/venkatesan-sundar-5891a720b"
+          />
+          <MemberCard
+            image = "1yuziO5Z0JiDMjObcqrzAk62cWc6JI_o4"
+            name = "Vikram Kaushik"
+            major = "Biomedical Engineering"
+            year = "5th year"
+            email = "vkaushik32@gatech.edu"
+            resume = "https://drive.google.com/open?id=19gcVpz1LITTjXZF8h1TV3S0Lacs-MlrA"
+            linkedin = "https://www.linkedin.com/in/vikram-kaushik/"
+            github = "https://github.com/vix-bram"
+          />
+          <MemberCard
+            image = "1s7Gaj7c7oyouqJNO3tf4BnUAEx5M3KCB"
+            name = "Akhil Ganesan"
+            major = "Biomedical Engineering"
+            year = "1st year"
+            email = "akhil.ganesan@gatech.edu"
+            resume = "https://drive.google.com/open?id=12Wzgw1crqPkimyFNP4xpjz_c4bmR0ZWM"
+            linkedin = "https://www.linkedin.com/in/akhil-ganesan"
+            github = "https://github.com/akhil-ganesan"
+          />
+          <MemberCard
+            image = "1u_2tUUm5bx7ushpKsHkCCzc41E4l4q0f"
+            name = "Jaehui Byun"
+            major = "Biomedical Engineering"
+            year = "3rd year"
+            email = "jbyun43@gatech.edu"
+            resume = "https://drive.google.com/open?id=19xq1mooWAyon5TFAf7LVtfRflyz00va_"
+          />
+          <MemberCard
+            image = "1VjHiBa0KUJBRs6JWQfY0-8mUN9IcMBGZ"
+            name = "Pranjal Gehlot"
+            major = "Biomedical Engineering"
+            year = "3rd year"
+            email = "pranjalgehlot@gmail.com"
+            resume = "https://drive.google.com/open?id=1K8U9dZqQdU7X5TdaWYt9atz18W_uhNYj"
+            linkedin = "https://www.linkedin.com/in/pranjal-gehlot/"
+            position = "center"
+          />
+          <MemberCard
+            image = "1BaY5vNRLDVXpUL9kCkDsHVAFqRLPxX1w"
+            name = "Saanvi Molugu"
+            major = "Computer Science"
+            year = "2nd year"
+            email = "saanvi.molugu@gmail.com"
+            resume = "https://drive.google.com/open?id=1B14WNyfaiNsAjNY7F4eVB-Y8_fMyqAqf"
+            linkedin = "https://www.linkedin.com/in/saanvi-m-387a94211/"
+          />
           {/* <MemberCard
             image = ""
             name = ""
