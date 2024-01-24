@@ -60,9 +60,9 @@ function About(props) {
     //       console.log('Parsed CSV data:', data);
     //     }
     // });
-
+    //
     function handleImage(id) {
-        return "https://drive.google.com/uc?export=view&id=" + id;
+        return 'https://drive.google.com/file/d/' + id + '/preview'
     }
 
     function handleEmail(email) {
@@ -85,7 +85,7 @@ function About(props) {
     return (
         <div className='profile'>
             <div className='imageContainer'>
-                <Profile src={handleImage(props.image)}/>
+                <iframe src={handleImage(props.image)} allowfullscreen="" className="embed"></iframe>
             </div>
             <div className='name'>{props.name}</div>
             <div className='major'><strong>Major: </strong>{props.major}</div>
