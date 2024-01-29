@@ -4,7 +4,7 @@ import Connect from './components/Connect';
 import Members from './components/Members';
 import './App.css';
 
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 const TRACKING_ID = "G-E0H8DVT55C";
 ReactGA.initialize(TRACKING_ID);
